@@ -1,1 +1,1 @@
-import lowbar
+from pip import lowbar
