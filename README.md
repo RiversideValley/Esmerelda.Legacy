@@ -1,4 +1,4 @@
-# <img width="64" align="center" src="assets/logo.png" /> FluentHub
+# <img width="64" align="center" src="assets/logo.png" /> Esmerelda
 
 #### The world's most advanced open-source artificially intelligent software.
 
