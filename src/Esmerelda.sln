@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32714.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Esme.Intelligence", "Esme\Esme.Intelligence.pyproj", "{54C3081A-D022-4C7A-AAA7-286787B895C4}"
-EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Esme.Services", "Esme.Services\Esme.Services.pyproj", "{4C6A254F-DCBC-4638-8851-0D55F6E4A89B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Esme.Intelligence", "Esme.Intelligence\Esme.Intelligence.pyproj", "{54C3081A-D022-4C7A-AAA7-286787B895C4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Esme.Common", "Esme.Common\Esme.Common.pyproj", "{0EB1CDCB-673D-47DE-BD2B-6C2715AD17F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +15,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54C3081A-D022-4C7A-AAA7-286787B895C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54C3081A-D022-4C7A-AAA7-286787B895C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C6A254F-DCBC-4638-8851-0D55F6E4A89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C6A254F-DCBC-4638-8851-0D55F6E4A89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C3081A-D022-4C7A-AAA7-286787B895C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C3081A-D022-4C7A-AAA7-286787B895C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB1CDCB-673D-47DE-BD2B-6C2715AD17F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB1CDCB-673D-47DE-BD2B-6C2715AD17F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

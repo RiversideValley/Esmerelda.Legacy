@@ -1,3 +1,6 @@
-[submodule "src/Esme.Common/Flux"]
-	path = src/Esme.Common/Flux
+[submodule "src/Esme.Intelligence/Flux"]
+	path = src/Esme.Intelligence/Flux
+	url = https://github.com/DepthCDLS/Flux.git
+[submodule "src/Esme.Services/Flux"]
+	path = src/Esme.Services/Flux
 	url = https://github.com/DepthCDLS/Flux.git
