@@ -8,4 +8,4 @@ class Service(object):
         service.stage = stage
         service.dir = dir
 
-# Location = Service("Location", "Esme.Services.Location", "Helps you locate using the Global Positioning System", 0.1, "Location" )
+# location = Service("Location", "Esme.Services.Location", "Helps you locate using the Global Positioning System", 0.1, "Location" )
