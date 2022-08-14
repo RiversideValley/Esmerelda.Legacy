@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="Flux\stx.py" />
     <Compile Include="IntelIndex.py" />
+    <Compile Include="IntelDatabase.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Flux\" />
