@@ -2,3 +2,4 @@
 * text=auto
 # Flux
 *.flx linguist-language=Flux
+*.py linguist-language=Flux
