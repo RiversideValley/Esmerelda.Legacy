@@ -1,0 +1,3 @@
+[submodule "Flux"]
+	path = src/Esme.Common/Flux
+	url = https://github.com/DepthCDLS/Flux.git
