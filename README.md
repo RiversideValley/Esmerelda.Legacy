@@ -87,7 +87,7 @@ Choose which channel you want via branches. You can choose from either [stable](
 
 ## 💳 Credit
 
-- Icon8 created the current logo.
+- Icons8 created the current logo.
 
 ## ⚖️ License
 
