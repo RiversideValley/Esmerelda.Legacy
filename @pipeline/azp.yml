@@ -20,12 +20,16 @@ strategy:
       python.version: '3.7'
 
 steps:
+
 - task: UsePythonVersion@0
   inputs:
     addToPath: False
     architecture: x64
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
+
+- checkout: self
+  submodules: true
 
 - script: |
     python src/Esme.Intelligence/IntelIndex.py
