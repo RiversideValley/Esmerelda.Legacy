@@ -46,10 +46,9 @@ There are multiple ways to participate in the community:
 .
 └──src                               // The source code.
    ├──Esme.Services                  // Simple computer functions that Esme can complete
-   ├──Esme.Intelligence              // Intelligence repository
-   └──Esme.Hypervisor                // Simulation software (WIP)
+   └──Esme.Intelligence              // Intelligence repository
 ```
-
+<!--   └──Esme.Hypervisor                // Simulation software-->
 ### 🗃️ Contributors
 
 <a href="https://github.com/DepthCDLS/Esmerelda/graphs/contributors">
