@@ -28,8 +28,7 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-- checkout: self
-  submodules: true
+- submodules: true
 
 - script: |
     python src/Esme.Intelligence/IntelIndex.py
