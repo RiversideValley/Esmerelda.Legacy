@@ -1,6 +1,9 @@
 # <img width="64" align="center" src="assets/logo.png" /> Esmerelda
 
-#### Your sweet maid: The world's most advanced open-source artificially intelligent software.
+#### Your sweet maid: more than just an open-source assistant.
+<!--
+#### Your sweet maid: the world's most advanced open-source artificially intelligent software.
+-->
 
 <p align="center">
   <a title="Azure Pipeline" target="_blank" href="https://dev.azure.com/CodenameDepth/Esmerelda">
