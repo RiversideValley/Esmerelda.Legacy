@@ -21,7 +21,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Flux\stx.py" />
     <Compile Include="ServiceIndex.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Flux\" />
+    <Folder Include="Flux\%40pipeline\" />
+    <Folder Include="Flux\.github\" />
+    <Folder Include="Flux\.github\workflows\" />
+    <Folder Include="Flux\src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Flux\%40pipeline\azp.yml" />
+    <Content Include="Flux\.git" />
+    <Content Include="Flux\.gitattributes" />
+    <Content Include="Flux\.github\workflows\codeql.yml" />
+    <Content Include="Flux\azure-pipelines.yml" />
+    <Content Include="Flux\LICENSE" />
+    <Content Include="Flux\manifest.flx" />
+    <Content Include="Flux\README.md" />
+    <Content Include="Flux\src\.gitkeep" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

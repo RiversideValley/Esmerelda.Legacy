@@ -1,5 +1,11 @@
-import sys
+from Flux import stx
 
-sys.path.insert(1, '../Esme.Common/Flux')
+class Service(object):
+    def __init__(service, name, bundle, desc, stage, dir):
+        service.name = name
+        service.bundle = bundle
+        service.desc = desc
+        service.stage = stage
+        service.dir = dir
 
-import stx
+# location = Service("Location", "Esme.Services.Location", "Helps you locate using the Global Positioning System", 0.1, "Location" )
